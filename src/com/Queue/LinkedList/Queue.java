@@ -23,15 +23,15 @@ public class Queue {
 			rear=qnode;
 		}
 	}
-	public Qnode deQueue() {	
+	public Object deQueue() {	
 		if(front==null) {
 			System.out.println("Queue is empty");
 			return null;
 		}else {
 			Qnode temp= front;
-			System.out.println("Deque refrence and data is=>"+temp+", "+temp.data);
+			//System.out.println("Deque refrence and data is=>"+temp+", "+temp.data);
 			front=front.next;
-			return temp;
+			return temp.data;
 		}
 	}
 	public Qnode peek() {
