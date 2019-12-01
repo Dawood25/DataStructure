@@ -4,7 +4,7 @@ public class SinglyLinkedList {
 	Node head;
 	Node tail;
 
-	class Node {
+	static class Node {
 		Object data;
 		Node next;
 

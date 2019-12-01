@@ -10,7 +10,6 @@ public class TestClass {
 		
 		SinglyLinkedList linkedList=new SinglyLinkedList();
 		SinglyLinkedList linkedList2=new SinglyLinkedList();
-		
 		linkedList.insertNodeAtHead(30);
 		linkedList2.insertNodeAtHead(300);
 		linkedList.insertNodeAtHead(20);
