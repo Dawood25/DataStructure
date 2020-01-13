@@ -25,5 +25,6 @@ public class TestClass {
 		linkedList.insertNodeAtIndex(0, 10);
 		linkedList2.printLinkedList();
 		linkedList.printLinkedList();
+		sc.close();
 	}
 }
