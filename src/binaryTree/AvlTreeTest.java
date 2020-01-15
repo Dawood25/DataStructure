@@ -13,6 +13,9 @@ public class AvlTreeTest {
 		avl.insertNode(55);
 		avl.insertNode(52);
 		avl.printInorderTraversal(avl.root);
+		avl.deleteNode(10);
+		System.out.println("\n\n\n\n\n");
+		avl.printInorderTraversal(avl.root);
 	}
 
 }
